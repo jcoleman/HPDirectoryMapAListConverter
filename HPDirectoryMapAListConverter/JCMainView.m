@@ -185,7 +185,7 @@ typedef enum JCRecordConversionState {
                                      defaultButton:@"OK"
                                    alternateButton:nil
                                        otherButton:nil
-                         informativeTextWithFormat:@"Directory CSV file contained formatting errors on rows: %@.\nNote: fix the first format error and try again. One error may cause subsequent errors to be reported unnecessarily.", [self.rowIndicesWithErrors componentsJoinedByString:@", "]];
+                         informativeTextWithFormat:@"Directory CSV file contained formatting errors on rows: %@.\n\nNote: fix the first format error and try again. One error may cause subsequent errors to be reported unnecessarily.", [self.rowIndicesWithErrors componentsJoinedByString:@", "]];
     [alert runModal];
   }
 }
