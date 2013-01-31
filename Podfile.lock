@@ -1,0 +1,15 @@
+
+PODS:
+- CHCSVParser (2.0.3)
+
+DEPENDENCIES:
+- CHCSVParser (from `git://github.com/davedelong/CHCSVParser.git')
+
+EXTERNAL SOURCES:
+  CHCSVParser:
+    :git: git://github.com/davedelong/CHCSVParser.git
+
+SPEC CHECKSUMS:
+  CHCSVParser: 5091ccc6b722059c6e4bd8a2610b76f7960c0571
+
+COCOAPODS: 0.16.1
