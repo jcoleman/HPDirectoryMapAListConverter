@@ -208,7 +208,6 @@ typedef enum JCRecordConversionState {
 }
 
 - (void)parser:(CHCSVParser*)parser didFailWithError:(NSError*)error {
-  // TODO: Display error dialog.
   NSAlert* alert = [NSAlert alertWithError:error];
   [alert runModal];
   self.openButton.enabled = YES;
