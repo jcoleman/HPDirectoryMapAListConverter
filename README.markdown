@@ -24,7 +24,7 @@ And outputs CSV files in the following format:
     <HOUSEHOLD NAME>,<First/Couple's Name> (<Kid's Names>),<Address>
     ...
 
-Licence
+License
 -------
 
 This project is licensed under the MIT license. All copyright rights are retained by myself.
